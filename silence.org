@@ -1,0 +1,49 @@
+##---------------------------------------------------------------------------------------------------------------------------##
+###############################################################################################################################
+##---------------------------------------------------------------------------------------------------------------------------##
+
+
+#+TITLE: The silence Package – Development Notes
+
+#+AUTHOR: Michael H. Pock
+
+#+EMAIL: mhp77@gmx.at
+
+#+LINK_HOME: http://orgmode.org
+
+#+TEXT: © Copyleft 2012 MHP
+
+#+OPTIONS: ^:nil -:nil TeX:nil LaTeX:nil
+
+#+EXPORT_EXCLUDE_TAGS: old
+
+
+* Tasks
+
+** Bugs
+
+   - [ ] \WarningsOff[<package>] and \ErrorsOff[<package>] fail when
+     <package> identifies itself in messages using \@currname.
+
+** Features
+
+   - [ ] Support turning off messages issued by means of hyperref’s
+     \Hy@Message.
+   - [ ] Support turning off LaTeX3 messages.
+
+** Maintenance
+
+
+-----
+
+
+* Old Tasks                                                        :old:
+
+
+-----
+
+
+##---------------------------------------------------------------------------------------------------------------------------##
+
+
+## LocalWords: WarningsOff ErrorsOff hyperref’s
